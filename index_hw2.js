@@ -64,19 +64,19 @@
 
 //  завдання 4
 
-const btnRemove = document.querySelector("[data-action='decrement']");
-const btnAdd = document.querySelector("[data-action='increment']");
-let num = 0;
-const span = document.getElementById("value");
-span.textContent = num;
+// const btnRemove = document.querySelector("[data-action='decrement']");
+// const btnAdd = document.querySelector("[data-action='increment']");
+// let num = 0;
+// const span = document.getElementById("value");
+// span.textContent = num;
 
-btnAdd.addEventListener("click", () => {
-    num += 1;
-    span.textContent = num;
-});
+// btnAdd.addEventListener("click", () => {
+//     num += 1;
+//     span.textContent = num;
+// });
 
-btnRemove.addEventListener("click", () => {
-    num -= 1;
-    span.textContent = num;
-});
+// btnRemove.addEventListener("click", () => {
+//     num -= 1;
+//     span.textContent = num;
+// });
 
