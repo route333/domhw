@@ -79,4 +79,3 @@
 //     num -= 1;
 //     span.textContent = num;
 // });
-
